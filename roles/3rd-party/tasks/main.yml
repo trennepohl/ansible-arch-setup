@@ -1,0 +1,5 @@
+- name: "installs Yay"
+  raw: go get -u github.com/Jguer/yay
+  
+- name: "Installs 3rd party apps"
+  raw: "export PATH=$PATH:~/go/bin && yay -Syu {{ package_names }} --noconfirm --nocleanmenu --nodiffmenu"

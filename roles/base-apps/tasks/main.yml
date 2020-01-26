@@ -1,0 +1,7 @@
+---
+- name: "Install base apps"
+  pacman:
+    name: "{{ apps }}"
+    state: present
+  tags:
+    - base-apps

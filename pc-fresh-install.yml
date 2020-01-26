@@ -1,0 +1,6 @@
+- name: Configure new pc for work :)
+  hosts: 
+    - "localhost"
+  roles:
+    - {role: base-apps, become: yes}
+    - 3rd-party
