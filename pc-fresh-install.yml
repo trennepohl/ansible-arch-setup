@@ -4,3 +4,4 @@
   roles:
     - {role: base-apps, become: yes}
     - 3rd-party
+    - vs-code

@@ -1,0 +1,6 @@
+---
+- name: "Install Language extensions"
+  raw: "code --install-extension {{ item }}"
+  loop: "{{ extensions }}"
+  tags:
+    - vscode-extensions
