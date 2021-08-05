@@ -1,1 +1,1 @@
-apps: [vim, git,curl, bind-tools,zsh,virtualbox,iotop,jq,htop,gnu-netcat,nmap,curl,python,go,unzip,docker,base-devel,firefox]
+apps: [yay,vim, git,curl, bind-tools,iotop,jq,htop,nmap,curl,python,go,unzip,docker,base-devel]
